@@ -25,7 +25,7 @@ public class LoginTest {
 		driver.findElement(By.name("identifier")).sendKeys("mailsharmilarao@gmail.com");
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/span/span")).click();
 		driver.findElement(By.xpath("//input[@class='whsOnd zHQkBf']"));	
-		
+		driver.findElement(By.xpath("//span[@class='CwaK9']")).click();
 	}
 	@AfterSuite
 	public void tearDown() {
